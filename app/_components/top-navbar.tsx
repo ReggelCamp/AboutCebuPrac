@@ -1,19 +1,14 @@
 "use client";
 
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-} from "@nextui-org/react";
+import { Navbar, NavbarItem } from "@nextui-org/react";
 import Link from "next/link";
-import { useState } from "react"; // Import useState inside the component
+import { useState } from "react";
 
 export default function TopNavbar() {
-  const [activeLink, setActiveLink] = useState(""); // State to track the active link
+  const [activeLink, setActiveLink] = useState("");
 
   const handleLinkClicked = (Link: any) => {
-    setActiveLink(Link); // Set active link when a link is clicked
+    setActiveLink(Link);
   };
 
   return (
@@ -23,13 +18,16 @@ export default function TopNavbar() {
           <p className="font-bold text-inherit">ACME</p>
         </div>
         <div className="flex justify-evenly h-full items-center w-full">
-          <NavbarItem
-            onClick={() => handleLinkClicked("home")}
-            className={`${
-              activeLink === "home" ? "border-b-2 border-red-500" : ""
-            } text-black items-center justify-center flex w-full hover:bg-green-500 h-full`}
-          >
-            <Link className="text-white" href="http://localhost:3000/">
+          <NavbarItem className="items-center justify-center flex w-full hover:bg-green-500 h-full">
+            <Link
+              onClick={() => handleLinkClicked("home")}
+              className={`${
+                activeLink === "home"
+                  ? "border-b-2 border-red-500"
+                  : "border border-none"
+              } text-white `}
+              href="http://localhost:3000/"
+            >
               Home
             </Link>
           </NavbarItem>
