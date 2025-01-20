@@ -26,7 +26,7 @@ export default function TopNavbar() {
                   ? "border-b-2 border-red-500"
                   : "border border-none"
               } text-white `}
-              href="http://localhost:3000/"
+              href="/dasboard"
             >
               Home
             </Link>

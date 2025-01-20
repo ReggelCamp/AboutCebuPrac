@@ -2,7 +2,7 @@
 
 import { Card, CardBody, Image } from "@nextui-org/react";
 
-export default function Header() {
+export default function Body() {
   return (
     <div className="flex w-full h-screen justify-center p-10 items-center bg-black overflow-auto">
       <div className="flex gap-10 w-full justify-center items-center ">
