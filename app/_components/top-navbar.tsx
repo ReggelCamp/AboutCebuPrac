@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function TopNavbar() {
   const [activeLink, setActiveLink] = useState("");
 
-  const handleLinkClicked = (Link: any) => {
+  const handleLinkClicked = (Link: string) => {
     setActiveLink(Link);
   };
 

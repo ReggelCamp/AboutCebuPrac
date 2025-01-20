@@ -8,6 +8,7 @@ export default function Body() {
     <div className="flex flex-col w-full overflow-auto">
       <div className="flex relative w-full h-screen">
         <Image
+          alt="cebu"
           className="w-screen h-screen object-cover  brightness-50"
           src="https://cdn.sweetescape.com/images/cities/cebu/cover/536c91dc-154e-4c60-b951-2de168d80e0d.jpg"
         />
@@ -34,6 +35,7 @@ export default function Body() {
             <div className="flex items-center justify-end w-full h-full">
               <Image
                 className="w-96 h-full rounded-lg"
+                alt="cebu"
                 src="https://images.unsplash.com/photo-1579957023433-7fad5b83efae?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               />
             </div>
@@ -57,6 +59,7 @@ export default function Body() {
             <div className="flex items-center justify-end w-full h-full">
               <Image
                 className="w-96 h-full rounded-lg"
+                alt="cebu"
                 src="https://i.pinimg.com/originals/9b/2e/27/9b2e2739215f0f852c6d1de523da82aa.jpg"
               />
             </div>
@@ -80,6 +83,7 @@ export default function Body() {
             <div className="flex items-center justify-end w-full h-full">
               <Image
                 className="w-96 h-full rounded-lg"
+                alt="cebu"
                 src="https://2.bp.blogspot.com/-hySTNJkRpa4/XSfivWLeYTI/AAAAAAAADug/nALsEjcjrqYTiGfVwVqjdBkCAlHiPGajwCLcBGAs/s1600/maravilla-beach-tabuelan-cebu-6.jpg"
               />
             </div>
@@ -102,6 +106,7 @@ export default function Body() {
           >
             <div className="flex items-center justify-end w-full h-full">
               <Image
+                alt="cebu"
                 className="w-96 h-full rounded-lg"
                 src="https://www.journeyera.com/wp-content/uploads/2016/10/osmena-peak-cebu-03227.jpg"
               />
